@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+
+h2{
+    color: #48e;
+}
+
+button.is-select{
+    background-color: #48e;
+}
+
+button.button{
+    background-color: #000;
+    cursor: initial;
+    pointer-events: none;
+}
+
+button{
+    padding: 6px 15px;
+    margin: 0 6px;
+    cursor: pointer;
+    background-color: #48e;
+    color: #fff;
+    transition: background-color .4s;
+}
+
+button:hover{
+    background-color: #26a;
+}
