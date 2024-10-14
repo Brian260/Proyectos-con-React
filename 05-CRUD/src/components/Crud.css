@@ -1,0 +1,82 @@
+h2{
+    color: #24a;
+}
+
+.form{
+    width: 350px;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 8px;
+    margin: 0 auto;
+    color: #24a;
+    box-shadow: 0 0 10px #0003;
+    border-radius: 8px;
+}
+
+input{
+    background-color: inherit;
+    border-radius: 6px;
+}
+
+.form > input{
+    padding: 2px 6px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #24a;
+    color: #48e;
+}
+
+.form > input::placeholder{
+    color: #48e;
+}
+
+.form > label{
+    font-size: 1.15rem;
+}
+
+.contenedor{
+    margin: 15px 0 10px 0;
+}
+
+.contenedor input{
+    margin: 0 20px;
+    color: #48e;
+    padding: 3px 20px;
+    border: 2px solid #24a;
+    cursor: pointer;
+}
+
+.contenedor input:hover{
+    background-color: #b6d7f2aa; 
+}
+
+.vacio{
+    color: #24a;
+    margin: 150px auto;
+}
+
+.grid{
+    color: #24a;
+    display: grid;
+    align-items: center;
+    border-bottom: 1px solid #48e;
+    margin: 20px auto;
+    grid-template-columns: repeat(5, 150px);
+    width: 600px;
+    padding: 6px;
+    place-content: start;
+}
+
+.contenedor-botones button{
+    margin: 0px 6px;
+    padding: 2px 8px;
+    color: #48e;
+    border: 2px solid #24a;
+    cursor: pointer;
+}
+
+.contenedor-botones button:hover{
+    background-color: #b6d7f2aa; 
+}
