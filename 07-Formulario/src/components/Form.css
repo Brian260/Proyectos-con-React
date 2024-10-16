@@ -1,0 +1,74 @@
+h2{
+    color: #24a;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form{
+    width: 350px;
+    position: relative;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 8px;
+    margin: 0 auto;
+    color: #24a;
+    box-shadow: 0 0 10px #0003;
+    border-radius: 8px;
+}
+
+.form > input,.form textarea{
+    border-radius: 6px;
+    padding: 2px 35px 2px 6px;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #24a;
+    color: #48e;
+    font-size: 1.03rem;
+}
+
+.form > input::placeholder{
+    color: #48e;
+}
+
+.form > label{
+    font-size: 1.15rem;
+}
+
+.form textarea{
+    resize: none;
+    border-right: 2px solid #24a;
+    border-left: 2px solid #24a;
+}
+
+.form button{
+    border: none;
+    border: 2px solid #24a;
+    padding: 4px 10px;
+    margin: 10px 0 0 0;
+    color: #48e;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #ddd2;
+}
+
+.error{
+    position:absolute;
+    right: 25px;
+}
+
+.error1{
+    top: 45px;
+}
+
+.error2{
+    top: 105px;
+}
+
+.error3{
+    top: 175px;
+}
